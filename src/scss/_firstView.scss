@@ -1,0 +1,12 @@
+.first_view {
+    height: 100vh;
+    .backgroundSlidera {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../assets/backgroundSlider.svg);
+        z-index: -1;
+    }
+}

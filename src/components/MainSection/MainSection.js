@@ -1,10 +1,13 @@
 import React from "react";
-import Header from './Header'
+import Header from './Header';
+import Slider from './Slider/Slider'
 
-export default function MainSection(){
-    return(
+export default function MainSection() {
+    return (
         <div className="first_view">
-         <Header/>
+            <div className="backgroundSlidera"></div>
+            <Header />
+            <Slider />
         </div>
     )
 }
