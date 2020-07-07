@@ -1,0 +1,22 @@
+header {
+    margin-top: 39px;
+    margin-left: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .eagle {
+        background-image: url("../assets/UW-bialy.svg");
+        display: block;
+    }
+    .menu {
+        margin-right: 113px  ;  
+        list-style-type: none;
+        li {
+            display: inline-block;
+            color: $main_color;
+            margin-right: 81px;
+            font-family: "Muli-Bold", "AdobeInvisFont", "MyriadPro-Regular";
+            font-size: 16px;
+        }
+    }
+}
