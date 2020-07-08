@@ -8,8 +8,6 @@ export default function Arrows({ setTextArrayIndex, textArrayIndex, styleArrow }
             setTextArrayIndex(prevState => prevState + 1)
         }
     }
-    
-    console.log(styleArrow(0))
     return (
         <div className="arrows">
             <img className={styleArrow(0)} onClick={() => changeTextArrayIndex(1)} src={require("../../../assets/nawigacja slajdera.svg")}

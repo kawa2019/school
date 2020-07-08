@@ -1,0 +1,16 @@
+.centerSection {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 215px;
+    .section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 215px;
+        .sectionText {
+            width: 610px;
+        }
+    }
+    .sectionReverse {
+        flex-direction: row-reverse;
+    }
+}

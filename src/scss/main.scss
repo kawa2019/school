@@ -1,11 +1,12 @@
 @import "variables";
 @import "general";
-@import "firstView";
-@import "header";
-@import "slider";
-@import "sliderText";
-@import "buttons";
-@import "arrows";
+@import "./MainSection/firstView";
+@import "./MainSection/header";
+@import "./MainSection/slider";
+@import "./MainSection/sliderText";
+@import "./MainSection/buttons";
+@import "./MainSection/arrows";
+@import ".//CenterSection/centerSection";
 
 
 
