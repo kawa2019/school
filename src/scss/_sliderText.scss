@@ -1,0 +1,13 @@
+.sliderText {
+    font-family: "Muli-ExtraLight", "AdobeInvisFont", "MyriadPro-Regular";
+    color: $main_color;
+    font-size: 40px;
+    width: 604px;
+    height: 100px;
+    span {
+        .lastWordText {
+            color: #26477e;
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.buttons {
+    margin-top: 51px;
+    height: 51px;
+    button {
+        border-radius: 30px;
+        font-family: "Muli-ExtraBold", "AdobeInvisFont", "MyriadPro-Regular";
+        font-size: 14px;
+        &:nth-child(1) {
+            margin-right: 19px;
+            padding: 21px 50px 17px 33px;
+            color: $second_color;
+            background-color: $main_color;
+            border: none;
+        }
+        &:nth-child(2){
+            padding: 19px 52px 17px 32px;
+            color: $main_color;
+            background-color: transparent;
+            border: 2px solid $main_color;
+        }
+    }
+}

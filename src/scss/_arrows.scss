@@ -1,0 +1,12 @@
+.arrows {
+    margin-top: 91px;
+    img {
+        &:nth-child(2) {
+            transform: rotate(180deg);
+            margin-left: 13px;
+        }
+    }
+}
+.arrowsWhite{
+    filter: brightness(0) invert(1);
+}

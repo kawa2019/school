@@ -1,0 +1,14 @@
+.bottomOfSlider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 221px;
+    .ellipse {
+        img {
+            display: block;
+            margin-bottom: 27px;
+        }
+    }
+    .left-side-slider {
+        margin-left: 104px;
+    }
+}
