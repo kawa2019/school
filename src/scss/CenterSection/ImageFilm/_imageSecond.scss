@@ -1,16 +1,9 @@
-.sectionImageFilm {
-    width: 493px;
-    height: 514px;
-}
-.imageFirst {
-    background-image: url("../../assets/image/Layer\ 1.svg");
-}
 .imageSecond {
-    background-image: url("../../assets/image/Layer\ 6@1X.png");
+    background-image: url("../../../assets/image/Layer\ 6@1X.png");
     background-position: left 70%;
     position: relative;
     .leftTopConer {
-        background-image: url("../../assets/image/Layer\ 8.svg");
+        background-image: url("../../../assets/image/Layer\ 8.svg");
         width: 138px;
         height: 158px;
         transform: rotate(90deg) scaleX(-1);
@@ -19,15 +12,11 @@
             position: absolute;
             top: 60px;
             left: 40px;
-            background-image: url("../../assets/image/Nowość.svg");
+            background-image: url("../../../assets/image/Nowość.svg");
             background-repeat: no-repeat;
             width: 80px;
             height: 70px;
             transform: rotate(-225deg) scaleX(-1);
         }
     }
-}
-.imageThird {
-    background-image: url("../../assets/image/Layer\ 7@1X.png");
-    background-position: 65% 55%;
 }
