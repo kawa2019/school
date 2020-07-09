@@ -1,0 +1,33 @@
+.sectionText {
+    width: 610px;
+    h1 {
+        font-family: "Muli-ExtraBold", "AdobeInvisFont", "MyriadPro-Regular";
+        font-size: 36px;
+        color: $third_color;
+        margin-bottom: 50px;
+    }
+    p {
+        color: $second_color;
+        font-family: "Muli-Regular", "AdobeInvisFont", "MyriadPro-Regular";
+        font-size: 18px;
+        line-height: 28px;
+        span {
+            //display: block;
+            .lawFirstText {
+                color: #10a5f5;
+            }
+            .bottomFirstText {
+                display: block;
+                margin-top: 42px;
+                line-height: 50px;
+                img {
+                    transform: rotate(180deg);
+                    margin-right: 18px;
+                    height: 10px;
+                    width: 35px;
+                    filter: invert(42%) sepia(84%) saturate(1223%) hue-rotate(176deg) brightness(104%) contrast(92%);
+                }
+            }
+        }
+    }
+}
