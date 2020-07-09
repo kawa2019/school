@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
     return (
         <header>
-            <img src={require("../../assets/UW-bialy.svg")}/>
+            <img src={require("../../assets/image/UW-bialy.svg")}/>
             <ul className="menu">
                 <li>I stopnia</li>
                 <li>II stopnia</li>

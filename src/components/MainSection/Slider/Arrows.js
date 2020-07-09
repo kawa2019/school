@@ -10,9 +10,9 @@ export default function Arrows({ setTextArrayIndex, textArrayIndex, styleArrow }
     }
     return (
         <div className="arrows">
-            <img className={styleArrow(0)} onClick={() => changeTextArrayIndex(1)} src={require("../../../assets/nawigacja slajdera.svg")}
+            <img className={styleArrow(0)} onClick={() => changeTextArrayIndex(1)} src={require("../../../assets/image/nawigacja slajdera.svg")}
             ></img>
-            <img className={styleArrow(3)} onClick={() => changeTextArrayIndex(2)} src={require("../../../assets/nawigacja slajdera.svg")}
+            <img className={styleArrow(3)} onClick={() => changeTextArrayIndex(2)} src={require("../../../assets/image/nawigacja slajdera.svg")}
             ></img>
         </div>
     )
