@@ -8,7 +8,7 @@ export default function Form() {
     return (
         <div className="containerForm">
             <form>
-                <span> Nie znalazłeś odpowiedniego kontaktu?<span>Skorzystaj z formularza.</span></span>
+                <p className="form-header"> Nie znalazłeś odpowiedniego kontaktu?<span>Skorzystaj z formularza.</span></p>
                 <InputText data={inputsArray[0]} />
                 <InputText data={inputsArray[1]} />
                 <InputText data={inputsArray[2]} />

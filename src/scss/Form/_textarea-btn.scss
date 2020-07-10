@@ -1,0 +1,13 @@
+textarea {
+    height: 160px;
+    width: 100%;
+}
+input[type="submit"] {
+    background-color: $fourth_color;
+    padding: 12px 42px;
+    color: $main_color;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 33px;
+}

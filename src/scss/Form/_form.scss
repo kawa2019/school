@@ -3,8 +3,43 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-color: #f5f8fa;
+        z-index: -1;
+    }
     form {
         height: 561px;
         width: 580px;
+        .form-header {
+            color: $second-color;
+            text-align: center;
+            font-size: 18px;
+            font-family: "Muli-SemiBold", "AdobeInvisFont", "MyriadPro-Regular";
+            margin-bottom: 44px;
+            span {
+                display: block;
+                color: #a9a9a9;
+                text-align: center;
+            }
+        }
     }
+}
+
+input {
+    height: 50px;
+}
+input,
+textarea {
+    border: none;
+    color: $third_color;
+    font-size: 15px;
+    font-family: "Muli-SemiBold", "Muli-Regular", "AdobeInvisFont", "MyriadPro-Regular";
+    box-sizing: border-box;
+    padding-left: 17px;
+    padding-top: 24px;
 }

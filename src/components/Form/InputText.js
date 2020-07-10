@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function InputText({ data }) {
     return (
-        <div>
-            <input type="text"/>
-            <span class="floating-label">{data.text}</span>
+        <div className="inputText floating-container" >
+            <input type="text" className="floating" required/>
+            <span className="floating-label">{data.text}</span>
         </div>
     )
 }

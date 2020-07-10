@@ -1,0 +1,46 @@
+.checkbox {
+    input[type="checkbox"] {
+        & + label::after {
+            content: none;
+        }
+        &:checked + label::after {
+            content: "";
+        }
+        position: absolute;
+        left: -9999px;
+    }
+    label {
+        font-size: 10px;
+        position: relative;
+        font-family: "Muli-SemiBold", "AdobeInvisFont", "MyriadPro-Regular";
+        color: $third-color;
+        padding-left: 30px;
+        width: 530px;
+        height: 60px;
+        display: inline-block;
+        &::before,
+        &::after {
+            position: absolute;
+        }
+        &::before {
+            content: "";
+            display: inline-block;
+            height: 17px;
+            width: 17px;
+            border: 1px solid;
+            top: -3px;
+            left: 0;
+        }
+        &::after {
+            content: "";
+            display: inline-block;
+            height: 6px;
+            width: 12px;
+            border-left: 2px solid #10a5f5;
+            border-bottom: 2px solid #10a5f5;
+            transform: rotate(-45deg);
+            top: 0;
+            left: 2px;
+        }
+    }
+}
