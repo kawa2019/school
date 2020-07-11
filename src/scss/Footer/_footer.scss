@@ -1,0 +1,57 @@
+.containerFooter {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-color: #001927;
+        z-index: -1;
+    }
+    .footer-left {
+        margin-top: 200px;
+        p {
+            font-size: 15px;
+            color: $main_color;
+            width: 110px;
+            margin-bottom: 80px;
+            line-height: 25px;
+            font-family: "AdobeInvisFont", "MyriadPro-Regular";
+        }
+        .map {
+            border-radius: 50%;
+            width: 270px;
+            height: 270px;
+            position: relative;
+            overflow: hidden;
+        }
+    }
+    .subsites {
+        margin-left: 170px;
+        margin-top: 220px;
+        height: 200px;
+        display: flex;
+        div {
+            margin-left: 70px;
+            &:first-child{
+                margin-left: 0px;
+            }
+            &:last-child{
+                margin-left: 90px;
+            }
+            a {
+                &:nth-child(1) {
+                    line-height: 60px;                
+                }
+                display: block;
+                font-size: 15px;
+                color: $main_color;
+                line-height: 40px;
+                font-family: "Muli-Regular", "Muli-ExtraBold", "Muli-Bold", "AdobeInvisFont", "MyriadPro-Regular";
+            }
+        }
+    }
+}
