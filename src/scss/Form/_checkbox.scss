@@ -43,4 +43,9 @@
             left: 2px;
         }
     }
+    .errorBefore {
+        &::before {
+            border: 1px solid $error_color;
+        }
+    }
 }

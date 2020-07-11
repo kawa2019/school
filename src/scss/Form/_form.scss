@@ -39,7 +39,15 @@ textarea {
     color: $third_color;
     font-size: 15px;
     font-family: "Muli-SemiBold", "Muli-Regular", "AdobeInvisFont", "MyriadPro-Regular";
-    box-sizing: border-box;
     padding-left: 17px;
     padding-top: 24px;
+}
+.floating-container.errorForm {
+    margin-bottom: 0px;
+}
+.errorText {
+    color: $error_color;
+}
+.errorBorder {
+    border: 1px solid $error_color;
 }
