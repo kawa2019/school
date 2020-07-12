@@ -1,0 +1,20 @@
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 1000px;
+        .menu {
+            right: 10px;
+        }
+        .centerSection {
+            width: 950px;
+        }
+        .subsites {
+            margin-left: 7px;
+            div {
+                margin-left: 10px;
+                &:last-child {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

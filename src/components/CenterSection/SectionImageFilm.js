@@ -21,7 +21,7 @@ export default function SectionImageFilm({ sectionData }) {
                                     Close | ✕
       </button>
                                 <div className="video-container">
-                                    <iframe id="youtube" width="960" height="540" src={display ? "https://www.youtube.com/embed/WsptdUFthWI?showinfo=0" : ""} frameborder="0" allowfullscreen></iframe>
+                                    <iframe id="youtube" width="960" height="540" src={display ? "https://www.youtube.com/embed/WsptdUFthWI?showinfo=0" : ""} frameBorder="0" allowFullScreen></iframe>
                                 </div>
 
                             </div>

@@ -1,0 +1,42 @@
+@media only screen and (max-width: 999px) {
+    .container {
+        width: 650px;
+        .left-side-slider {
+            margin-left: 0;
+        }
+        .backgroundSlidera {
+            background-position: 40% 60%;
+        }
+        .menu {
+            position: absolute;
+            right: 20px;
+            top: 110px;
+            display: none;
+            li {
+                display: block;
+                margin: 20px;
+                text-align: center;
+            }
+        }
+        .menu.menuVisible {
+            display: block;
+        }
+        .centerSection {
+            width: 610px;
+            .section {
+                flex-direction: column;
+                height: 100%;
+                align-items: center;
+                margin-bottom: 100px;
+            }
+            .sectionReverse {
+                flex-direction: column-reverse;
+            }
+        }
+        .subsites {
+            margin-top: 50px;
+            flex-wrap: wrap;
+            margin-left: 20px;
+        }
+    }
+}

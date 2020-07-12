@@ -11,13 +11,14 @@ export default function Subsites() {
     { header: "Na skróty", anchors: ["Aktualności", "Wydarzenia", "Konferencje", "Blog"] }]
     return (
         <div className="subsites">
-            {subsitesArray.map(object => {
+            {subsitesArray.map((object, index) => {
                 return (
-                    <div>
+                    <div key={index}>
                         <a>{object.header}</a>
-                        {object.anchors.map(anchor => <a>{anchor}</a>)}
+                        {object.anchors.map((anchor, index) => <a key={index}>{anchor}</a>)}
                     </div>)
             })}
+            <p>Projekt: Crafton Realizacja: Kamil Kuciak</p>
         </div>
     )
 }

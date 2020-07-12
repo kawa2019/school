@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1500px) {
+    .container {
+        width: 1200px;
+        .centerSection {
+            width: 1150px;
+        }
+        .section {
+            justify-content: space-around;
+        }
+        .left-side-slider {
+            margin-left: 50px;
+        }
+        .ellipse {
+            margin-right: 100px;
+        }
+        .subsites {
+            margin-left: 50px;
+            div {
+                margin-left: 15px;
+                &:last-child {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

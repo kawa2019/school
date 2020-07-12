@@ -5,8 +5,11 @@ header {
     justify-content: space-between;
     align-items: center;
     .menu {
-        margin-right: 113px  ;  
         list-style-type: none;
+        position: fixed;
+        right: 113px;
+        background-color: RGBA(0, 0, 0, 0.5);
+        z-index: 5;
         li {
             display: inline-block;
             color: $main_color;
@@ -16,3 +19,5 @@ header {
         }
     }
 }
+
+
