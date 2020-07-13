@@ -28,10 +28,8 @@
         margin-left: 0;
     }
     .containerFooter {
-        height: 100%;
         flex-direction: column;
         &::before {
-            height: 100%;
             left: 0;
         }
         .footer-left {

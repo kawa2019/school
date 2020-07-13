@@ -1,13 +1,12 @@
 .first_view {
-    height: 100vh;
+    height: 835px;
     border: 1px solid transparent;  
     .backgroundSlidera {
         position: absolute;
         left: 0;
         right: 0;
         width: 100%;
-        //change
-        height: 100vh;
+        height: 835px;
         background: url(../../assets/image/backgroundSlider.png);
         background-repeat: no-repeat;
         background-position: 4% 60% ;
