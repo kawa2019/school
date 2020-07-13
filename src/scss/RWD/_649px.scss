@@ -29,7 +29,7 @@
     }
     .containerFooter {
         height: 100%;
-        display: block;
+        flex-direction: column;
         &::before {
             height: 100%;
             left: 0;
