@@ -15,39 +15,40 @@ label,
 .play_me,
 .arrows img {
     cursor: pointer;
+    outline: none;
 }
 a {
     &:hover {
-        background-color: rgba(173,216,230 ,0.5 );
+        background-color: rgba(173, 216, 230, 0.5);
     }
 }
 .buttons button:nth-child(1) {
     &:hover {
-        background-color: rgba(173,216,230 ,0.5 );
+        background-color: rgba(173, 216, 230, 0.5);
     }
 }
 .buttons button:nth-child(2) {
     &:hover {
-        background-color: rgba(173,216,230 ,0.5 );
+        background-color: rgba(173, 216, 230, 0.5);
     }
 }
 input[type="submit"] {
     &:hover {
-        background-color: rgba(173,216,230 ,0.5 );
+        background-color: rgba(173, 216, 230, 0.5);
     }
 }
 label {
     &:hover {
-        background-color: rgba(173,216,230 ,0.5 );
+        background-color: rgba(173, 216, 230, 0.5);
     }
 }
 .play_me {
     &:hover {
-        background-color: rgba(173,216,230 ,0.5 );
+        background-color: rgba(173, 216, 230, 0.5);
     }
 }
 .arrows img {
     &:hover {
-        background-color: rgba(173,216,230 ,0.5 );
+        background-color: rgba(173, 216, 230, 0.5);
     }
 }

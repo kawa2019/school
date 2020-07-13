@@ -1,15 +1,29 @@
 header {
     margin-top: 39px;
-    margin-left: 105px;
+    margin-left: 104px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    
     .menu {
         list-style-type: none;
         position: fixed;
         right: 113px;
-        background-color: RGBA(0, 0, 0, 0.5);
-        z-index: 5;
+        z-index: 3;
+
+        &::before {
+            content: "";
+            background-color: RGBA(0, 0, 0, 0.5);
+            position: absolute;
+            height: 50px;
+            width: 100vw;
+            left: 0;
+            right: 0;
+            z-index: -1;
+
+        }
+
         li {
             display: inline-block;
             color: $main_color;
@@ -19,5 +33,3 @@ header {
         }
     }
 }
-
-

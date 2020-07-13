@@ -7,7 +7,7 @@
     .play-container {
         position: relative;
         .lightbox {
-            background-color: fade(black, 80%);
+            background-color: RGBA(0, 0, 0, 0.5);
             overflow: scroll;
             position: fixed;
             display: none;
@@ -58,22 +58,6 @@
             left: 0;
             top: 0;
         }
-
-        /* IGNORE FORM THIS POINT ON */
-
-        body {
-            background: #efefef;
-        }
-
-        #container {
-            border-radius: 4px;
-            max-width: 300px;
-            height: auto;
-            padding: 50px;
-            background: white;
-            margin: 100px auto;
-        }
-
         #playme {
             background: $fourth_color;
             text-transform: uppercase;

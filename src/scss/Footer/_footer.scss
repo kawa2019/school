@@ -43,12 +43,12 @@
             }
             a {
                 &:nth-child(1) {
-                    line-height: 60px;
+                    margin-bottom: 40px;
                 }
                 display: block;
                 font-size: 15px;
                 color: $main_color;
-                line-height: 40px;
+                margin-bottom: 30px;
                 font-family: "Muli-Regular", "Muli-ExtraBold", "Muli-Bold", "AdobeInvisFont", "MyriadPro-Regular";
             }
         }
