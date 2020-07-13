@@ -1,7 +1,7 @@
 .containerFooter {
     height: 870px;
     display: flex;
-    justify-content: center;
+    align-items: center;
     &::before {
         content: "";
         position: absolute;
