@@ -1,7 +1,7 @@
 .containerFooter {
     height: 870px;
     display: flex;
-    align-items: center;
+    justify-content: center;
     &::before {
         content: "";
         position: absolute;
@@ -15,7 +15,7 @@
         p {
             font-size: 15px;
             color: $main_color;
-            width: 110px;
+            width: 120px;
             margin-bottom: 80px;
             line-height: 25px;
             font-family: "AdobeInvisFont", "MyriadPro-Regular";
