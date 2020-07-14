@@ -12,7 +12,7 @@ export default function SectionImageFilm({ sectionData }) {
         } else if (sectionData.image === "imageThird") {
             return (
                 <div className="play-container">
-                    <img onClick={() => setDisplay("block")} src={require("../../assets/image/play-button.svg")} className="play_me" />
+                    <img onClick={() => setDisplay("block")} src={require("../../assets/image/play-button.svg")} alt={sectionData.altTexd} className="play_me" />
                     <div id="video" className="lightbox" onClick={() => setDisplay("")} style={{ display: display }}>
                         <div className="lightbox-container">
                             <div className="lightbox-content">
