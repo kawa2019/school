@@ -1,7 +1,8 @@
 @media only screen and (max-width: 999px) {
     .container {
         width: 650px;
-        .left-side-slider, header {
+        .left-side-slider,
+        header {
             margin-left: 0;
         }
         .backgroundSlidera {
@@ -14,7 +15,7 @@
             top: 120px;
             display: none;
             background-color: RGBA(0, 0, 0, 0.5);
-            &::before{
+            &::before {
                 content: none;
             }
             li {
@@ -38,14 +39,21 @@
                 flex-direction: column-reverse;
             }
         }
+        .containerFooter {
+            height: 500px;
+            &::before {
+                height: 500px;
+            }
+        }
         .subsites {
             margin-top: 50px;
             flex-wrap: wrap;
-                margin-left: 20px;
+            margin-left: 20px;
             div {
-                  width: 179px;
-                  margin-left: 0;
-                &:first-child, &:last-child {
+                width: 179px;
+                margin-left: 0;
+                &:first-child,
+                &:last-child {
                     margin-left: 0px;
                 }
             }

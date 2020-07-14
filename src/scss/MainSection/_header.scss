@@ -4,24 +4,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    
     .menu {
         list-style-type: none;
-        position: fixed;
-        right: 113px;
+        right: 200px;
         z-index: 3;
-
         &::before {
             content: "";
             background-color: RGBA(0, 0, 0, 0.5);
-            position: absolute;
             height: 50px;
             width: 100vw;
             left: 0;
             right: 0;
             z-index: -1;
-
         }
 
         li {
@@ -30,6 +24,12 @@ header {
             margin-left: 81px;
             font-family: "Muli-Bold", "AdobeInvisFont", "MyriadPro-Regular";
             font-size: 16px;
+        }
+    }
+    .fixedMenu {
+        position: fixed;
+        &::before {
+            position: fixed;
         }
     }
 }

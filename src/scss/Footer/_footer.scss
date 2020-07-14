@@ -1,36 +1,36 @@
 .containerFooter {
-    height: 870px;
+    height: 465px;
     display: flex;
     justify-content: center;
     &::before {
         content: "";
         position: absolute;
         width: 100%;
-        height: 870px;
+        height: 465px;
         background-color: #001927;
         z-index: -1;
     }
     .footer-left {
-        margin-top: 200px;
+        margin-top: 85px;
         p {
             font-size: 15px;
             color: $main_color;
             width: 120px;
-            margin-bottom: 80px;
-            line-height: 25px;
+            margin-bottom: 50px;
+            line-height: 21px;
             font-family: "AdobeInvisFont", "MyriadPro-Regular";
         }
         .map {
             border-radius: 50%;
-            width: 270px;
-            height: 270px;
+            width: 200px;
+            height: 200px;
             position: relative;
             overflow: hidden;
         }
     }
     .subsites {
-        margin-left: 150px;
-        margin-top: 220px;
+        margin-left: 97px;
+        margin-top: 92px;
         position: relative;
         div {
             margin-left: 70px;
@@ -43,12 +43,12 @@
             }
             a {
                 &:nth-child(1) {
-                    margin-bottom: 40px;
+                    margin-bottom: 14px;
                 }
                 display: block;
                 font-size: 15px;
                 color: $main_color;
-                margin-bottom: 30px;
+                margin-bottom: 10px;
                 font-family: "Muli-Regular", "Muli-ExtraBold", "Muli-Bold", "AdobeInvisFont", "MyriadPro-Regular";
             }
         }

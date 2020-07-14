@@ -7,7 +7,10 @@
     .checkbox label {
         width: 360px;
     }
-    .checkbox label{
+    header {
+        margin-top: 0;
+    }
+    .checkbox label {
         height: auto;
     }
     .sliderText {
@@ -18,7 +21,7 @@
         margin-top: 150px;
     }
     .left-side-slider > * {
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
     .buttons {
         button {
@@ -27,14 +30,23 @@
             }
         }
     }
-    .containerFooter {
+    .containerForm {
+        height: 780px;
+        &::before {
+            height: 780px;
+        }
+    }
+    .container .containerFooter {
         flex-direction: column;
         align-items: center;
+        height: 780px;
         &::before {
+            height: 780px;
             left: 0;
         }
         .footer-left {
             margin-top: 0;
+            margin-bottom: 10px;
             p {
                 margin-bottom: 0;
             }
@@ -43,14 +55,17 @@
             margin-top: 0;
             margin-left: 0;
             div {
+                &:nth-child(odd){
+                    text-indent: 9px;
+                }
                 a {
                     margin-bottom: 10px;
-                &:first-child{
-                    margin-bottom: 15px;
-                }
+                    &:first-child {
+                        margin-bottom: 15px;
+                    }
                 }
             }
-            p{
+            p {
                 bottom: -20px;
             }
         }
