@@ -6,7 +6,7 @@
         background-image: url("../../../assets/image/Layer\ 8.svg");
         width: 138px;
         height: 158px;
-        transform: rotate(90deg) scaleX(-1);
+        transform: rotate(90deg) scaleX(-1.1);
         margin-left: 12px;
         position: relative;
         div {
@@ -17,7 +17,7 @@
             background-repeat: no-repeat;
             width: 80px;
             height: 70px;
-            transform: rotate(-225deg) scaleX(-1.1);
+            transform: rotate(-225deg) scaleX(-1);
         }
     }
 }
