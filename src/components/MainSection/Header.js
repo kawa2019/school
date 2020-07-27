@@ -22,14 +22,14 @@ export default function Header() {
             return "menu"
         }
     }
-    //position: fixed;
+
     const arrayMenu = ["I stopnia", "II stopnia", "Podyplomowe", "Szkolenia", "Usługi"]
     return (
         <header>
             <img src={require("../../assets/image/UW-bialy.svg")} />
             {burgerMenu && <img onClick={() => setMenuSwitch(!menuSwitch)} width="50px" height="50px" src={require("../../assets/image/open-menu.svg")} />}
             <ul className={classNameMenu()}>
-                {arrayMenu.map(site => <li><a>{site}</a></li>)}
+                {arrayMenu.map((site, index) => <li key={index}><a>{site}</a></li>)}
             </ul>
         </header>
     )
